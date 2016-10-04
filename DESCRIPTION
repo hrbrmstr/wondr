@@ -1,0 +1,23 @@
+Package: wondr
+Type: Package
+Title: Tools to Work with the CDC WONDER API
+Version: 0.1.0
+Date: 2016-10-04
+Author: Bob Rudis (bob@@rud.is)
+Maintainer: Bob Rudis <bob@rud.is>
+Description: Tools to work with the CDC WONDER API. 
+    <https://wonder.cdc.gov/wonder/help/WONDER-API.html>
+URL: http://gitlab.com/hrbrmstr/wondr
+BugReports: https://gitlab.com/hrbrmstr/wondr/issues
+License: AGPL
+Suggests:
+    testthat
+Depends:
+    R (>= 3.2.0)
+Imports:
+    purrr,
+    httr,
+    XML,
+    xml2,
+    htmltools
+RoxygenNote: 5.0.1
