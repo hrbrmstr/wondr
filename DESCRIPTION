@@ -7,8 +7,8 @@ Author: Bob Rudis (bob@@rud.is)
 Maintainer: Bob Rudis <bob@rud.is>
 Description: Tools to work with the CDC WONDER API. 
     <https://wonder.cdc.gov/wonder/help/WONDER-API.html>
-URL: http://gitlab.com/hrbrmstr/wondr
-BugReports: https://gitlab.com/hrbrmstr/wondr/issues
+URL: http://githug.com/hrbrmstr/wondr
+BugReports: https://github.com/hrbrmstr/wondr/issues
 License: AGPL
 Suggests:
     testthat
@@ -20,4 +20,4 @@ Imports:
     XML,
     xml2,
     htmltools
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1

@@ -1,6 +1,6 @@
 #' Tools to Work with the CDC WONDER API
 #'
-#' @name `wondr-package`
+#' @name wondr-package
 #' @docType package
 #' @author Bob Rudis (bob@@rud.is)
 #' @import purrr httr XML htmltools

@@ -23,4 +23,3 @@ Add a parameter to a WONDER API query call
    make_query(database_id="dbid") -> result
 }
 }
-

@@ -57,7 +57,7 @@ make_query <- function(wobj, database_id) {
   query <- XML::saveXML(list_to_xml(wobj, "request-parameters"),
                    indent=FALSE,
                    prefix='<?xml version="1.0" encoding="utf-8"?>')
-  res <- httr::POST(sprintf("http://wonder.cdc.gov/controller/datarequest/%s", database_id),
+  res <- httr::POST(sprintf("https://wonder.cdc.gov/controller/datarequest/%s", database_id),
               body=list(request_xml=query),
               encode = "form")
   httr::stop_for_status(res)

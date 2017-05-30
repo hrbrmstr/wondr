@@ -13,7 +13,7 @@ The following functions are implemented:
 ### Installation
 
 ```{r eval=FALSE}
-devtools::install_git("https://gitlab.com/hrbrmstr/wondr.git")
+devtools::install_github("hrbrmstr/wondr")
 ```
 
 ```{r message=FALSE, warning=FALSE, error=FALSE}
@@ -110,5 +110,6 @@ xml_find_all(query_result, ".//response/data-table/r") %>%
       as.list() %>% 
       setNames(sprintf("V%d", 1:length(.))) %>% 
       as.data.frame(stringsAsFactors=FALSE)
-  })
+  }) %>% 
+  tibble::as.tibble()
 ```

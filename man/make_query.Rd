@@ -23,4 +23,3 @@ Issue a WONDER API query
    make_query(database_id="dbid") -> result
 }
 }
-
