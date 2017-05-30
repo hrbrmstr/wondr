@@ -3,7 +3,7 @@ Type: Package
 Title: Tools to Work with the CDC WONDER API
 Version: 0.1.0
 Date: 2016-10-04
-Author: Bob Rudis (bob@@rud.is)
+Author: Bob Rudis (bob@rud.is), Sara E. Moore
 Maintainer: Bob Rudis <bob@rud.is>
 Description: Tools to work with the CDC WONDER API. 
     <https://wonder.cdc.gov/wonder/help/WONDER-API.html>
